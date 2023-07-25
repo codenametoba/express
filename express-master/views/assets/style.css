@@ -1,0 +1,54 @@
+body{
+    background-color: blck;
+    
+
+}
+/* li a{
+    background-color: red;
+    position: absolute;
+   height: 100px;
+   width: 100%;
+    list-style: none;
+    right: 0;
+    left: 0;
+    top: 0;
+    text-align: center; */
+
+    
+    
+/* } */
+ ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* center the list items horizontally */
+    
+  }
+  
+   ul li {
+    display: inline-block; /* or display: flex; */
+    font-size: 8vh;
+    
+    
+  }
+  
+   ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #dd0c0c;
+    background-color: aquamarine;
+    height: 100px;
+    
+
+  }
+
+  .one {
+    background-color: yellow;
+  }
+  
+ 
+
+
+
+ 

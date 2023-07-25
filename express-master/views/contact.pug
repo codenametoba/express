@@ -1,0 +1,32 @@
+doctype html
+html
+  head
+    title Contact Me
+    style 
+        include ./assets/style.css
+
+  body
+  nav.one
+  ul
+    li
+     a(href= "http://localhost:3003/contact") contact
+
+   
+    li
+      a(href="http://localhost:3003") Home
+    
+    li
+      a(href="http://localhost:3003/services") Services
+      
+
+    h1.mine Contact Me
+    p.text Please fill out the form below to get in touch with me.
+    form(action='/contact', method='POST')
+      label(for='name') Name:
+      input(type='text', name='name', id='name')
+      label(for='email') Email:
+      input(type='email', name='email', id='email')
+      label(for='message') Message:
+      textarea(name='message', id='message')
+      button(type='submit') Send
+    
